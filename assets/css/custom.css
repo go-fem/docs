@@ -1,28 +1,29 @@
 /* go-fem branding on Hextra (github.com/go-fem/brand).
  *
- * The mark's gradient, #B5D23F -> #5C7A0A (branding/svg/color/go-fem.svg).
+ * The mark's gradient, #75DC6C -> #15820B (branding/svg/color/go-fem.svg).
  * Hextra derives its whole primary scale (links, active sidebar entry,
  * buttons) from these three variables.
  *
- * Light theme: #5C7A0A = hsl(76 85% 26%), the gradient's dark end
- *              (4.95:1 on white).
- * Dark theme:  #B5D23F = hsl(72 62% 54%), its light end. */
+ * Light theme: #15820B = hsl(115 84% 28%), the gradient's dark end
+ *              (4.96:1 on white).
+ * Dark theme:  #75DC6C = hsl(115 62% 64%), its light end (11.23:1 on the dark
+ *              background). */
 :root {
-  --primary-hue: 76deg;
-  --primary-saturation: 85%;
-  --primary-lightness: 26%;
+  --primary-hue: 115deg;
+  --primary-saturation: 84%;
+  --primary-lightness: 28%;
 }
 .dark {
-  --primary-hue: 72deg;
+  --primary-hue: 115deg;
   --primary-saturation: 62%;
-  --primary-lightness: 54%;
+  --primary-lightness: 64%;
 }
 
 /* Tables: their headers stand out in the brand colour and their text is a
  * size smaller than the prose. In the dark theme the header keeps the dark
  * end: white on the light end cannot be read. */
 .content table { font-size: 0.875em; }
-.content table th { background: #5C7A0A; color: #fff; }
+.content table th { background: #15820B; color: #fff; }
 
 /* The version selector's list hangs from its button's right edge, so that it
  * stays on screen at the end of the navbar. */
