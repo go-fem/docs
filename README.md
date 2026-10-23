@@ -1,7 +1,7 @@
 # docs
 
 [![docs](https://github.com/go-fem/docs/actions/workflows/docs.yml/badge.svg)](https://github.com/go-fem/docs/actions/workflows/docs.yml)
-[![License](https://img.shields.io/badge/license-BSD--3--Clause-5C7A0A?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/license-BSD--3--Clause-15820B?style=flat-square)](LICENSE)
 
 **The go-fem documentation site**, published at
 <https://go-fem.github.io/docs/>.
